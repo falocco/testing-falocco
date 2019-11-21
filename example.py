@@ -8,10 +8,10 @@ def test_add():
 
 
 def subtract(a, b):
-    return a + b  # <--- fix this in step 8
+    return a - b  # changed + to -
 
 
-# uncomment the following test in step 5
+# uncomment the following test in step 5 and minor change
 def test_subtract():
     assert subtract(2, 3) == -1
 
